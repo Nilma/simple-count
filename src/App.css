@@ -1,0 +1,86 @@
+/* Page layout */
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+  line-height: 1.4;
+}
+
+.title {
+  margin-bottom: 16px;
+}
+
+/* Layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.divider {
+  margin: 24px 0;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+/* Counter */
+.counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+.counter-label {
+  opacity: 0.7;
+}
+
+.counter-value {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Buttons */
+.button-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button.secondary {
+  opacity: 0.85;
+}
+
+/* Text helpers */
+.hint {
+  margin-top: 12px;
+  font-size: 14px;
+  opacity: 0.75;
+}
+
+.notes ul {
+  margin-top: 0;
+}
