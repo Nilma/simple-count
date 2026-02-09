@@ -84,3 +84,16 @@
 .notes ul {
   margin-top: 0;
 }
+
+.section-title {
+  margin: 12px 0 8px;
+}
+
+.section-title__heading {
+  margin: 0;
+}
+
+.section-title__text {
+  margin: 6px 0 0;
+  opacity: 0.8;
+}

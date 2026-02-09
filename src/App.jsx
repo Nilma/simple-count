@@ -1,12 +1,18 @@
 import "./App.css";
 import StateCounterCard from "./components/StateCounterCard.jsx";
 import PropsCounterCard from "./components/PropsCounterCard.jsx";
+import SectionTitle from "./components/ui/SectionTitle.jsx";
 
 export default function App() {
   return (
     <main className="page">
       <h1 className="title">State vs Props – Simple Count</h1>
 
+      <SectionTitle title="Today’s goal">
+        Understand the difference between <strong>state</strong> and <strong>props</strong>
+        by building two counters.
+      </SectionTitle>
+      
       <section className="grid">
         <StateCounterCard />
         <PropsCounterCard />
