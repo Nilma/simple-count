@@ -12,10 +12,11 @@ export default function App() {
         Understand the difference between <strong>state</strong> and <strong>props</strong>
         by building two counters.
       </SectionTitle>
-      
+
       <section className="grid">
         <StateCounterCard />
         <PropsCounterCard />
+       
       </section>
 
       <hr className="divider" />

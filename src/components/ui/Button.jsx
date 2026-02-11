@@ -5,3 +5,4 @@ export default function Button({ label, onClick, variant = "primary" }) {
     </button>
   );
 }
+
